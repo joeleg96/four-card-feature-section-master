@@ -155,12 +155,13 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .category-container {
       display: grid;
       grid-template-columns: 22rem 22rem 22rem;
       grid-template-rows: 8rem 8rem 8rem 8rem;
       column-gap: 1rem;
+      row-gap: 1rem;
       justify-content: center;
       margin-bottom: 3rem;
     }
@@ -174,18 +175,18 @@ img {
     }
   
     .supervisor-container {
-      grid-area: ;
+      grid-area: 1/2/3/3;
     }
   
     .tb-container {
-      grid-area: ;
+      grid-area: 2/1/4/2;
     }
   
     .karma-container {
-      grid-area: ;
+      grid-area: 2/3/4/5;
     }
   
     .calc-container {
-      grid-area: ;
+      grid-area: 3/2/5/3;
     }
   }
